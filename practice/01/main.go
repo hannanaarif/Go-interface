@@ -23,11 +23,6 @@ func (c Cat) Speak() string {
 	return "Meow!"
 }
 
-func sayHello(a Animal) {
-	fmt.Println("Hello, ", a.Speak())
-}
-
-
 
 func main() {
 	dog:= Dog{name: "Fido"}
